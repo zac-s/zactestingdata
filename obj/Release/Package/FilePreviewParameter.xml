@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Microsoft-ApiApp9e8e7aac259d4a9eb11fbfc7e7a5037a" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\short\\todolist\\src\\ToDoListDataAPI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\short\\todolist\\src\\ToDoListDataAPI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

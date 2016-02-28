@@ -85,6 +85,18 @@ namespace ToDoListDataAPI.Controllers
                 mockData.Remove(todo.ID);
             }
         }
+
+        // GET: api/TodoItemList/do_something
+        public void Do_Something(string owner, int id)
+        {
+            CheckCallerId();
+
+            ToDoItem todo = mockData.Values.First(a => (a.Owner == owner || owner == "*") && a.ID == id);
+            if (todo != null)
+            {
+                mockData.Remove(todo.ID);
+            }
+        }
     }
 }
 
